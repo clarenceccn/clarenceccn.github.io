@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Raleway;
+    src: url("./fonts/Raleway-Light.ttf");
+}
+body {
+    /* text-align: center; */
+    margin: 0;
+}
+a {
+    font-family: "Raleway";
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+h2,h4 {
+    font-family: "Raleway";
+}
+p {
+    font-family: "Raleway";
+    font-size: 14pt;
+    line-height: 175%;
+    letter-spacing: 2px;
+}
+footer {
+    text-align: center;
+}
+.clearfix {
+    clear: both;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+#navbar {
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    margin: 0;
+}
+nav#navbar>ul
+{
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav#navbar>ul>li
+{
+    font-size: 16pt;
+    display: inline;
+    width: 20%;
+    margin: 0 4% 0 0;
+}
+nav#navbar>ul>li>a {
+
+    color: white;
+    text-decoration: none;
+}
+#introduction {
+    background: url("./imgs/wallpaper.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#introduction>h2 {
+    margin-top: 5%;
+    font-size: 72pt;
+}
+#introduction>section {
+    padding-top: 19%;
+    padding-bottom: 1%;
+    font-size: 24pt;
+}
+#about {
+    background-color: white;
+    position: relative;
+    margin: 0;
+    height: 90%;
+    color: #34495e;
+}
+#about>h2 {
+    font-size: 36pt;
+    text-align: center;
+}
+#about>section {
+    display: block;
+    margin: 4% 5% 2.5% 5.5%;
+    text-align: justify;
+}
+#about>img {
+    align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project {
+    display: block;
+    position: relative;
+    margin: 0;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+#project>h2 {
+    font-size: 36pt;
+    text-align: center;
+    padding-top: 5%;
+}
+#project>section {
+    width: 45.5%;
+    text-align: justify;
+}
+.project-pane:nth-of-type(odd) {
+    display: block;
+    float: left;
+    margin: 0 1.5% 0 3%;
+}
+.project-pane:nth-of-type(even) {
+    display: block;
+    float: right;
+    margin: 0 1.5% 0 3%;
+}
+.project-pane>img {
+    display: block;
+}
+.project-pane>p {
+    display: inline-block;
+}
+#experimental {
+    background-color: white;
+    color: #2c3e50;
+}
+#experimental>h2 {
+    font-size: 36pt;
+    text-align: center;
+}
+#experimental>section {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    text-align: justify;
+}
+#contact {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#contact>a>img {
+    margin: 0 1.5% 0 1.5%;
+}
+#contact>h2 {
+    padding-top: 5%;
+    font-size: 36pt;
+    text-align: center;
+}
+#resume {
+    filter: brightness(0) invert(1);
+}
