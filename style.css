@@ -6,6 +6,9 @@ body {
     /* text-align: center; */
     margin: 0;
 }
+a {
+    font-family: "Raleway";
+}
 main {
     width: 100%;
     height: 100%;
