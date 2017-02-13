@@ -62,13 +62,14 @@ nav#navbar>ul>li>a {
     text-align: center;
     color: white;
     opacity: .9;
+    height: 30%;
 }
 #introduction>h2 {
     font-size: 72pt;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 #introduction>section {
-    padding-bottom: 23%;
+    padding-bottom: 20%;
     font-size: 24pt;
 }
 #about {
