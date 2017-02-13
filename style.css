@@ -19,6 +19,9 @@ p {
     line-height: 175%;
     letter-spacing: 2px;
 }
+footer {
+    text-align: center;
+}
 .clearfix {
     clear: both;
     line-height: 0;
