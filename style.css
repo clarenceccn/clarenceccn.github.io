@@ -1,6 +1,6 @@
 @font-face {
     font-family: Raleway;
-    src: url(Raleway-Light.ttf);
+    src: url("./fonts/Raleway-Light.ttf");
 }
 body {
     /* text-align: center; */
@@ -56,8 +56,7 @@ nav#navbar>ul>li>a {
     text-decoration: none;
 }
 #introduction {
-    /* background-color: #34495e; */
-    background: url("wallpaper.png") no-repeat center center fixed;
+    background: url("./imgs/wallpaper.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
