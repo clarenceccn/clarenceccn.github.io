@@ -1,0 +1,24 @@
+gems:
+  - jekyll-seo-tag
+
+title: Clarence Nguyen's Portfolio Static Site
+
+description: I'm Clarence Nguyen and this is my Portfolio Website. Undergraduate at University of California, San Diego. Computer Science (B.S.). From San Jose to San Diego
+
+url: https://clarenceccn.github.io/
+
+author: Clarence Nguyen
+
+facebook:
+  app_id: 100006549886603
+  publisher: https://www.facebook.com/clarence.nguyen.16
+  admins: 100006549886603
+
+logo: /imgs/default-pic.png
+
+social:
+  name: Clarence Chuong Anh Nguyen
+  links:
+    - https://www.facebook.com/clarence.nguyen.16
+    - https://www.linkedin.com/in/clarence-nguyen-0a81b6114/
+

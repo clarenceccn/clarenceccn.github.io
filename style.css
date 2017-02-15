@@ -2,6 +2,44 @@
     font-family: Raleway;
     src: url("./fonts/Raleway-Light.ttf");
 }
+@media only screen and (min-width : 1025px) and (max-width : 1280px) 
+{
+    #introduction {
+        background: url("./imgs/wallpaper-1280.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width : 801px) and (max-width : 1024px) 
+{
+    #introduction {
+        background: url("./imgs/wallpaper-1024.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width : 0px) and (max-width : 800px) 
+{
+    #introduction {
+        background: url("./imgs/wallpaper-800.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+}
 body {
     /* text-align: center; */
     margin: 0;
