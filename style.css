@@ -2,6 +2,19 @@
     font-family: Raleway;
     src: url("./fonts/Raleway-Light.ttf");
 }
+
+@media only screen and (min-width : 1281px)
+{
+    #introduction {
+        background: url("./imgs/wallpaper.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+}
 @media only screen and (min-width : 1025px) and (max-width : 1280px) 
 {
     #introduction {
@@ -31,7 +44,7 @@
 @media only screen and (min-width : 0px) and (max-width : 800px) 
 {
     #introduction {
-        background: url("./imgs/wallpaper-800.png") no-repeat center center fixed;
+        background: url("./imgs/wallpaper-960.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -93,15 +106,7 @@ nav#navbar>ul>li>a {
     color: white;
     text-decoration: none;
 }
-#introduction {
-    background: url("./imgs/wallpaper.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    color: white;
-}
+
 #introduction>h2 {
     margin-top: 5%;
     font-size: 72pt;
